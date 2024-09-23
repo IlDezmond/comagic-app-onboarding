@@ -120,6 +120,7 @@ This section guides users on how to create a connected app within Salesforce. A 
   - Enable Task creation for successful inbound, outbound and missed calls.
   - Specify the status and priority with which the task will be created.
   - Task will be created on every call.
+  - Task could be attached to a contact or account by specifying it in the settings.
   - To avoid creating tasks for missed outbound calls, the option can be disabled using the checkbox.
 
 ![image](sf_task.gif)
@@ -157,6 +158,19 @@ This section guides users on how to create a connected app within Salesforce. A 
   <br /><br />
   - If the client’s phone number is hidden, only a Task can be created, provided the integration settings allow it. Otherwise, nothing is created.
 
+</details>
+<br />
+
+<details>
+<summary style="font-weight:bold;">Entity Creation Settings (Inquiries)</summary> <br />
+
+- **Most settings for creating entities in inquiries are similar to calls, with a few key differences:**
+<br /><br />
+
+  - Owner for new entities could be set only if contact already exists or if default responsible employee is set.
+  <br /><br />
+  - "Consider employee's schedule" setting allows to specify the task's "due date" field according to employee's schedule in Callgear. Employees are matched by email. 
+  Example: Employee has schedule from 10:00 to 18:00 from monday to friday. It's 16:00 of tuesday. Deadline set to 6 hours. Due date will be 14:00 of wednesday.
 </details>
 <br />
 
