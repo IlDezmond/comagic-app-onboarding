@@ -106,6 +106,20 @@ _Incoming calls are forwarded to the Contact Owner (personal manager) identified
 </details>
 <br />
 
+<details>
+<summary style="font-weight:bold;">Entity Creation Settings (Inquiries)</summary> <br />
+
+- **Most settings for creating entities in inquiries are similar to calls, with a few key differences:**
+<br /><br />
+
+  - Owner for new entities could be set only if contact already exists or if default responsible employee is set.
+  <br /><br />
+  - Tickets are created on every inquiry.
+  - "Consider employee's schedule" setting allows to specify the ticket's "close date" field according to employee's schedule in Callgear. Employees are matched by email. 
+  Example: Employee has schedule from 10:00 to 18:00 from monday to friday. It's 16:00 of tuesday. Deadline set to 6 hours. Close date will be 14:00 of wednesday.
+</details>
+<br />
+
 ---
 
 ## Support <br />
